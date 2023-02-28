@@ -4,8 +4,7 @@ const lista = document.querySelector('ul');
 const enter = document.querySelector('input');
 const boton = document.querySelector('button');
 
-//activa el boton de llenado y corre la función para llenar el array y actualizar la lista, borro el ingreso
-//y le puse un focus
+
 boton.addEventListener('click', () => {
     if (enter.value === '') {
     }else {
@@ -15,7 +14,7 @@ enter.value = '';
 fill();}
 });
 
-//declaré esta variable para que funcione la funcion llenar de abajo
+
 function fill() {
     newItem = document.createElement('li');
     const deleter = newItem;
